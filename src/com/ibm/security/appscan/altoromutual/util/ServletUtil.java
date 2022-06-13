@@ -59,6 +59,7 @@ public class ServletUtil {
 
 	public static final String SESSION_ATTR_USER = "user";
 	public static final String SESSION_ATTR_USER2 = "user2";
+	public static final String SESSION_ATTR_USER3 = "user3";
 	public static final String SESSION_ATTR_ADMIN_VALUE = "altoroadmin";
 	public static final String SESSION_ATTR_ADMIN_KEY = "admin";
 
