@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration staticAnalysisOnly="true">
+  <Targets>
+    <Target path="C:\Users\bao.lu\OneDrive - HCL Technologies Ltd\Desktop\AltoroJ-AltoroJ-3.2\build\libs\altoromutual.war">
+      <CustomBuildInfo additional_classpath="C:\Users\bao.lu\OneDrive - HCL Technologies Ltd\Desktop\AltoroJ-AltoroJ-3.2\build\classes\java\main" jdk_path="C:\Program Files\Java\jdk1.8.0_221" jsp_compiler="Default Tomcat JSP Compiler" package_includes="com.ibm"/>
+    </Target>
+  </Targets>
+</Configuration>
