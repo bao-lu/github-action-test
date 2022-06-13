@@ -58,8 +58,6 @@ import com.ibm.security.appscan.altoromutual.model.User;
 public class ServletUtil {
 
 	public static final String SESSION_ATTR_USER = "user";
-	public static final String SESSION_ATTR_USER2 = "user2";
-	public static final String SESSION_ATTR_USER3 = "user3";
 	public static final String SESSION_ATTR_ADMIN_VALUE = "altoroadmin";
 	public static final String SESSION_ATTR_ADMIN_KEY = "admin";
 
@@ -98,7 +96,6 @@ public class ServletUtil {
 					.newDocumentBuilder().parse(file);
 			// root node
 			NodeList nodes = document.getElementsByTagName("news");
-
 			if (nodes.getLength() == 1) {
 				nodes = nodes.item(0).getChildNodes();
 				for (int i = 0; i < nodes.getLength(); i++) {
