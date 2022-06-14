@@ -1,0 +1,65 @@
+03:40:09 03/28/2007 
+STARTING - performance.runMgr.startAssessment
+03:40:09 03/28/2007 JVM MEMORY: totalMemory=2 MB, inUse=1067 KB, freed=677 KB (in 3 passes) - performance.runMgr.startAssessment 
+03:40:10 03/28/2007 (Build 4.2.0.70) Before:  MEMORY: \Process(ServerManager)\Virtual Bytes - RESULT=964 MB  - performance.runMgr.startAssessment 
+03:40:11 03/28/2007 (Build 4.2.0.70) Before:  MEMORY: \Process(cli)\Private Bytes - RESULT=45 MB  - performance.runMgr.startAssessment 
+03:40:12 03/28/2007 (Build 4.2.0.70) Before:  MEMORY: \Process(cli)\Virtual Bytes - RESULT=1287 MB  - performance.runMgr.startAssessment 
+03:40:13 03/28/2007 (Build 4.2.0.70) Before:  MEMORY: \Process(ServerManager)\Private Bytes - RESULT=220 MB  - performance.runMgr.startAssessment 
+03:40:28 03/28/2007 (Build 4.2.0.70) Application:SimpleIOT ELAPSED(ms): 14889  - performance.runMgr.startAssessment 
+03:40:28 03/28/2007 JVM MEMORY: totalMemory=2 MB, inUse=1091 KB, freed=450 KB (in 1 passes) - performance.runMgr.startAssessment 
+03:40:29 03/28/2007 (Build 4.2.0.70) After:  MEMORY: \Process(ServerManager)\Virtual Bytes - RESULT=954 MB  - performance.runMgr.startAssessment 
+03:40:30 03/28/2007 (Build 4.2.0.70) After:  MEMORY: \Process(cli)\Private Bytes - RESULT=45 MB  - performance.runMgr.startAssessment 
+03:40:31 03/28/2007 (Build 4.2.0.70) After:  MEMORY: \Process(cli)\Virtual Bytes - RESULT=1291 MB  - performance.runMgr.startAssessment 
+03:40:32 03/28/2007 (Build 4.2.0.70) After:  MEMORY: \Process(ServerManager)\Private Bytes - RESULT=198 MB  - performance.runMgr.startAssessment 
+03:40:32 03/28/2007 
+STARTING - performance.AssessmentRun.export
+03:40:32 03/28/2007 JVM MEMORY: totalMemory=2 MB, inUse=1087 KB, freed=112 KB (in 1 passes) - performance.AssessmentRun.export 
+03:40:33 03/28/2007 (Build 4.2.0.70) Before:  MEMORY: \Process(ServerManager)\Virtual Bytes - RESULT=954 MB  - performance.AssessmentRun.export 
+03:40:34 03/28/2007 (Build 4.2.0.70) Before:  MEMORY: \Process(cli)\Private Bytes - RESULT=45 MB  - performance.AssessmentRun.export 
+03:40:35 03/28/2007 (Build 4.2.0.70) Before:  MEMORY: \Process(cli)\Virtual Bytes - RESULT=1291 MB  - performance.AssessmentRun.export 
+03:40:36 03/28/2007 (Build 4.2.0.70) Before:  MEMORY: \Process(ServerManager)\Private Bytes - RESULT=198 MB  - performance.AssessmentRun.export 
+03:40:36 03/28/2007 (Build 4.2.0.70) Application:SimpleIOT ELAPSED(ms): 79  - performance.AssessmentRun.export 
+03:40:36 03/28/2007 JVM MEMORY: totalMemory=2 MB, inUse=1115 KB, freed=181 KB (in 1 passes) - performance.AssessmentRun.export 
+03:40:37 03/28/2007 (Build 4.2.0.70) After:  MEMORY: \Process(ServerManager)\Virtual Bytes - RESULT=954 MB  - performance.AssessmentRun.export 
+03:40:38 03/28/2007 (Build 4.2.0.70) After:  MEMORY: \Process(cli)\Private Bytes - RESULT=45 MB  - performance.AssessmentRun.export 
+03:40:39 03/28/2007 (Build 4.2.0.70) After:  MEMORY: \Process(cli)\Virtual Bytes - RESULT=1291 MB  - performance.AssessmentRun.export 
+03:40:40 03/28/2007 (Build 4.2.0.70) After:  MEMORY: \Process(ServerManager)\Private Bytes - RESULT=197 MB  - performance.AssessmentRun.export 
+03:40:40 03/28/2007 
+STARTING - performance.AssessmentRun.saveState
+03:40:40 03/28/2007 JVM MEMORY: totalMemory=2 MB, inUse=1076 KB, freed=184 KB (in 1 passes) - performance.AssessmentRun.saveState 
+03:40:41 03/28/2007 (Build 4.2.0.70) Before APPLICATION:SimpleIOT:  MEMORY: \Process(ServerManager)\Virtual Bytes - RESULT=954 MB  - performance.AssessmentRun.saveState 
+03:40:42 03/28/2007 (Build 4.2.0.70) Before APPLICATION:SimpleIOT:  MEMORY: \Process(cli)\Private Bytes - RESULT=45 MB  - performance.AssessmentRun.saveState 
+03:40:43 03/28/2007 (Build 4.2.0.70) Before APPLICATION:SimpleIOT:  MEMORY: \Process(cli)\Virtual Bytes - RESULT=1291 MB  - performance.AssessmentRun.saveState 
+03:40:44 03/28/2007 (Build 4.2.0.70) Before APPLICATION:SimpleIOT:  MEMORY: \Process(ServerManager)\Private Bytes - RESULT=197 MB  - performance.AssessmentRun.saveState 
+03:40:45 03/28/2007 (Build 4.2.0.70) APPLICATION:SimpleIOT ELAPSED(ms): 454  - performance.AssessmentRun.saveState
+03:40:45 03/28/2007 JVM MEMORY: totalMemory=2 MB, inUse=1090 KB, freed=69 KB (in 1 passes) - performance.AssessmentRun.saveState 
+03:40:46 03/28/2007 (Build 4.2.0.70) After APPLICATION:SimpleIOT:  MEMORY: \Process(ServerManager)\Virtual Bytes - RESULT=954 MB  - performance.AssessmentRun.saveState 
+03:40:47 03/28/2007 (Build 4.2.0.70) After APPLICATION:SimpleIOT:  MEMORY: \Process(cli)\Private Bytes - RESULT=45 MB  - performance.AssessmentRun.saveState 
+03:40:48 03/28/2007 (Build 4.2.0.70) After APPLICATION:SimpleIOT:  MEMORY: \Process(cli)\Virtual Bytes - RESULT=1291 MB  - performance.AssessmentRun.saveState 
+03:40:49 03/28/2007 (Build 4.2.0.70) After APPLICATION:SimpleIOT:  MEMORY: \Process(ServerManager)\Private Bytes - RESULT=197 MB  - performance.AssessmentRun.saveState 
+03:40:49 03/28/2007 
+STARTING - performance.AssessmentRunManager.removeAssessmentRun
+03:40:49 03/28/2007 JVM MEMORY: totalMemory=2 MB, inUse=1089 KB, freed=194 KB (in 1 passes) - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:50 03/28/2007 (Build 4.2.0.70) Before: APPLICATION:SimpleIOT:  MEMORY: \Process(ServerManager)\Virtual Bytes - RESULT=944 MB  - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:51 03/28/2007 (Build 4.2.0.70) Before: APPLICATION:SimpleIOT:  MEMORY: \Process(cli)\Private Bytes - RESULT=45 MB  - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:52 03/28/2007 (Build 4.2.0.70) Before: APPLICATION:SimpleIOT:  MEMORY: \Process(cli)\Virtual Bytes - RESULT=1291 MB  - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:53 03/28/2007 (Build 4.2.0.70) Before: APPLICATION:SimpleIOT:  MEMORY: \Process(ServerManager)\Private Bytes - RESULT=197 MB  - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:53 03/28/2007 (Build 4.2.0.70) APPLICATION:SimpleIOT ELAPSED(ms): 125  - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:53 03/28/2007 JVM MEMORY: totalMemory=2 MB, inUse=1103 KB, freed=70 KB (in 1 passes) - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:54 03/28/2007 (Build 4.2.0.70) After: APPLICATION:SimpleIOT:  MEMORY: \Process(ServerManager)\Virtual Bytes - RESULT=944 MB  - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:55 03/28/2007 (Build 4.2.0.70) After: APPLICATION:SimpleIOT:  MEMORY: \Process(cli)\Private Bytes - RESULT=45 MB  - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:56 03/28/2007 (Build 4.2.0.70) After: APPLICATION:SimpleIOT:  MEMORY: \Process(cli)\Virtual Bytes - RESULT=1291 MB  - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:57 03/28/2007 (Build 4.2.0.70) After: APPLICATION:SimpleIOT:  MEMORY: \Process(ServerManager)\Private Bytes - RESULT=198 MB  - performance.AssessmentRunManager.removeAssessmentRun 
+03:40:57 03/28/2007 
+STARTING - performance.AssessmentRunManager.openAssessmentFile
+03:40:57 03/28/2007 JVM MEMORY: totalMemory=2 MB, inUse=1087 KB, freed=212 KB (in 1 passes) - performance.AssessmentRunManager.openAssessmentFile 
+03:40:58 03/28/2007 (Build 4.2.0.70) Before :  MEMORY: \Process(ServerManager)\Virtual Bytes - RESULT=944 MB  - performance.AssessmentRunManager.openAssessmentFile 
+03:41:00 03/28/2007 (Build 4.2.0.70) Before :  MEMORY: \Process(cli)\Private Bytes - RESULT=45 MB  - performance.AssessmentRunManager.openAssessmentFile 
+03:41:01 03/28/2007 (Build 4.2.0.70) Before :  MEMORY: \Process(cli)\Virtual Bytes - RESULT=1291 MB  - performance.AssessmentRunManager.openAssessmentFile 
+03:41:02 03/28/2007 (Build 4.2.0.70) Before :  MEMORY: \Process(ServerManager)\Private Bytes - RESULT=198 MB  - performance.AssessmentRunManager.openAssessmentFile 
+03:41:02 03/28/2007 (Build 4.2.0.70) APPLICATION:SimpleIOT ELAPSED(ms): 172  - performance.AssessmentRunManager.openAssessmentFile 
+03:41:02 03/28/2007 JVM MEMORY: totalMemory=2 MB, inUse=1104 KB, freed=107 KB (in 1 passes) - performance.AssessmentRunManager.openAssessmentFile 
+03:41:03 03/28/2007 (Build 4.2.0.70) After APPLICATION:SimpleIOT:  MEMORY: \Process(ServerManager)\Virtual Bytes - RESULT=944 MB  - performance.AssessmentRunManager.openAssessmentFile 
+03:41:04 03/28/2007 (Build 4.2.0.70) After APPLICATION:SimpleIOT:  MEMORY: \Process(cli)\Private Bytes - RESULT=45 MB  - performance.AssessmentRunManager.openAssessmentFile 
+03:41:05 03/28/2007 (Build 4.2.0.70) After APPLICATION:SimpleIOT:  MEMORY: \Process(cli)\Virtual Bytes - RESULT=1291 MB  - performance.AssessmentRunManager.openAssessmentFile 
+03:41:06 03/28/2007 (Build 4.2.0.70) After APPLICATION:SimpleIOT:  MEMORY: \Process(ServerManager)\Private Bytes - RESULT=198 MB  - performance.AssessmentRunManager.openAssessmentFile 

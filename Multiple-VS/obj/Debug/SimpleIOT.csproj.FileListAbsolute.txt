@@ -1,0 +1,7 @@
+C:\Users\bao.lu\Desktop\Multiple-VS\bin\Debug\SimpleIOT.exe.config
+C:\Users\bao.lu\Desktop\Multiple-VS\bin\Debug\SimpleIOT.exe
+C:\Users\bao.lu\Desktop\Multiple-VS\bin\Debug\SimpleIOT.pdb
+C:\Users\bao.lu\Desktop\Multiple-VS\obj\Debug\SimpleIOT.csproj.AssemblyReference.cache
+C:\Users\bao.lu\Desktop\Multiple-VS\obj\Debug\SimpleIOT.csproj.CoreCompileInputs.cache
+C:\Users\bao.lu\Desktop\Multiple-VS\obj\Debug\SimpleIOT.exe
+C:\Users\bao.lu\Desktop\Multiple-VS\obj\Debug\SimpleIOT.pdb
