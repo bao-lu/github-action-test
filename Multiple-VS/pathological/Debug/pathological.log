@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  pathological.cpp
+pathological.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  pathological.vcxproj -> C:\Users\bao.lu\Desktop\Multiple-VS\Debug\pathological.exe

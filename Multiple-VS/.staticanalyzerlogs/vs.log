@@ -1,0 +1,42 @@
+**********START LOG SESSION: 1/21/2022 5:28:47 PM
+
+1/21/2022 5:28:47 PM
+INFO: Version determined from sln 15.0.
+
+1/21/2022 5:28:47 PM
+INFO: Added solution C:\Users\bao.lu\Desktop\Multiple-VS\pathological.sln.
+
+1/21/2022 5:28:48 PM
+INFO: Configuration and Platform used: Debug | Win32
+
+1/21/2022 5:28:48 PM
+INFO: Successfully loaded C:/Users/bao.lu/Desktop/Multiple-VS/pathological/pathological.vcxproj
+
+1/21/2022 5:28:48 PM
+INFO: Added project C:/Users/bao.lu/Desktop/Multiple-VS/pathological/pathological.vcxproj.
+
+**********END LOG SESSION**********
+**********START LOG SESSION: 1/21/2022 5:28:48 PM
+
+1/21/2022 5:28:48 PM
+INFO: Version determined from sln 12.0.
+
+1/21/2022 5:28:48 PM
+INFO: Added solution C:\Users\bao.lu\Desktop\Multiple-VS\SimpleIOT.sln.
+
+1/21/2022 5:28:50 PM
+INFO: Configuration and Platform used: Debug | AnyCPU
+
+1/21/2022 5:28:50 PM
+INFO: Successfully loaded C:/Users/bao.lu/Desktop/Multiple-VS/SimpleIOT.csproj
+
+1/21/2022 5:28:50 PM
+INFO: Added project C:/Users/bao.lu/Desktop/Multiple-VS/SimpleIOT.csproj.
+
+1/21/2022 5:28:50 PM
+INFO: Project "SimpleIOT.csproj" (default targets):
+
+1/21/2022 5:28:50 PM
+INFO: Done building project "SimpleIOT.csproj".
+
+**********END LOG SESSION**********
