@@ -17,5 +17,5 @@ jobs:
       uses: ./.github/workflows/action-job-summary.yml
       with:
         high_issues: 10
-        medium_issues: 5
+        med_issues: 5
         low_issues: 2
