@@ -1,7 +1,23 @@
 name: Job Action Summary
 
 on:
-  workflow_call
+  workflow_call:
+    inputs:
+      high_issues:
+        description: 'Number of high issues reported.'
+        required: false
+        type: boolean
+        default: false
+      med_issues:
+        description: 'Number of medium issues reported.'
+        required: false
+        type: boolean
+        default: false
+      low_issues:
+        description: 'Number of low issues reported.'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   summary:
