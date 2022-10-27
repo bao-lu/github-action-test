@@ -29,6 +29,6 @@ jobs:
       run: |
          echo "| Test Results :test_tube: | Passed :green_circle: | Failed :x: | Skipped | Time Duration :alarm_clock: |" >> $GITHUB_STEP_SUMMARY
          echo "| ----------- | ------ | ------ | ------- | ------------ |" >> $GITHUB_STEP_SUMMARY
-         echo "| :green_circle: Pass | 122 | 0 | 3 | 12m 3s |" >> $GITHUB_STEP_SUMMARY
+         echo "| :green_circle: Pass | ${{ inputs.high_issues }} |  ${{ inputs.medium_issues }} |  ${{ inputs.low_issues }} | 12m 3s |" >> $GITHUB_STEP_SUMMARY
          echo "| :x: Failed | 121 | 2 | 3 | 10m 3s |" >> $GITHUB_STEP_SUMMARY
          echo "| :green_circle: Pass | 4 | 12 | 3 | 9m 4s |" >> $GITHUB_STEP_SUMMARY
