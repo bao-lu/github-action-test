@@ -13,3 +13,9 @@ jobs:
           asoc_secret: ${{secrets.ASOC_SECRET}}
     env: 
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+  call-workflow:
+      uses: ./.github/workflows/action-job-summary.yml@main
+      with:
+        high_issues: 10
+        medium_issues: 5
+        low_issues: 2
