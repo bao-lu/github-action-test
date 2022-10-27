@@ -13,8 +13,8 @@ jobs:
           asoc_secret: ${{secrets.ASOC_SECRET}}
     env: 
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-  call-workflow:
-      uses: ./.github/workflows/action-job-summary.yml
+  scan-summary-workflow:
+      uses: ./.github/workflows/scan-summary.yml
       with:
         high_issues: 10
         med_issues: 5
