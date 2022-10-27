@@ -5,19 +5,16 @@ on:
     inputs:
       high_issues:
         description: 'Number of high issues reported.'
-        required: false
-        type: boolean
-        default: false
+        required: true
+        type: number
       med_issues:
         description: 'Number of medium issues reported.'
-        required: false
-        type: boolean
-        default: false
+        required: true
+        type: number
       low_issues:
         description: 'Number of low issues reported.'
-        required: false
-        type: boolean
-        default: false
+        required: true
+        type: number
 
 jobs:
   summary:
