@@ -1,0 +1,5 @@
+name: 'Job summary testing with Github Action'
+description: 'testing job summary'
+runs:
+  using: 'node16'
+  main: 'summary.js'
