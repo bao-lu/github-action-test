@@ -13,3 +13,5 @@ jobs:
           asoc_secret: ${{secrets.ASOC_SECRET}}
     env: 
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+  scan-summary-workflow:
+      uses: ./.github/workflows/create_job_summary.yml
