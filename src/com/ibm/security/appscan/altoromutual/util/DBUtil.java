@@ -396,7 +396,6 @@ public class DBUtil {
 				dateString = "DATE < '" + endDate + " 23:59:59'";
 			}
 			
-			String query = "SELECT * FROM TRANSACTIONS WHERE (" + acctIds.toString() + ") " + ((dateString==null)?"": "AND (" + dateString + ") ") + "ORDER BY DATE DESC" ;
 			ResultSet resultSet = null;
 			
 			try {
