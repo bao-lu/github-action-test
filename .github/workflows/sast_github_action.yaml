@@ -13,4 +13,4 @@ jobs:
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: 11cd2d3e-6c5b-4324-903c-bd9b8df1a2f3
-          service_url: https://vm-ascp-test-westeu-001.westeurope.cloudapp.azure.com
+          service_url: ${{secrets.SERVICE_URL}}
