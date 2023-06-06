@@ -12,6 +12,6 @@ jobs:
         with:
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
-          application_id: 11cd2d3e-6c5b-4324-903c-bd9b8df1a2f3
+          application_id: d0d2e72c-d8d2-4020-97b8-a48108af602e
           service_url: ${{secrets.SERVICE_URL}}
           acceptssl: true
