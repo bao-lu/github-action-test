@@ -14,3 +14,4 @@ jobs:
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: d0d2e72c-d8d2-4020-97b8-a48108af602e
           service_url: ${{secrets.SERVICE_URL}}
+          acceptssl: true
