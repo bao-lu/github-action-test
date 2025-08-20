@@ -1,25 +1,14 @@
+plugins {
+	id "com.hcl.security.appscan" version "1.0.8"
+}
 
 apply plugin: 'war'
 
 webAppDirName = 'WebContent'
-sourceCompatibility = "1.7"; 
-targetCompatibility = "1.7";
 
 repositories {
 	mavenCentral()
 }
-
-buildscript {
-    repositories {
-        maven { url "file://///C:/ASoC-Dev/appscan-gradle-plugin/appscan-gradle-plugin/build/libs" }
-    }
-
-    dependencies {
-		classpath fileTree(dir: "C:/ASoC-Dev/appscan-gradle-plugin/build/libs", include: "*.jar")
-    }
-}
-
-apply plugin:'com.hcl.security.appscan'
 
 sourceSets {
     main {
@@ -33,19 +22,17 @@ sourceSets {
 }
 
 dependencies {
-	compile \
+	implementation \
 		fileTree(dir: "${webAppDirName}/WEB-INF/lib", include: '*.jar'),
 		'commons-codec:commons-codec:1.6',
 		'commons-lang:commons-lang:2.5',
 		'com.hynnet:commons-lang3:3.3.2',
 		'org.apache.derby:derby:10.8.2.2',
-		'org.glassfish.jersey.core:jersey-server:2.27',
-		'org.glassfish.jersey.containers:jersey-container-servlet:2.27',
-		'org.glassfish.jersey.inject:jersey-hk2:2.27',
+		'com.sun.jersey:jersey-bundle:1.19',
 		'log4j:log4j:1.2.16',
 		'org.apache.wink:wink-json4j:1.4'
 	providedCompile \
-		'javax:javaee-api:7.0'
+		'javax:javaee-api:6.0'
 }
 
 war {
